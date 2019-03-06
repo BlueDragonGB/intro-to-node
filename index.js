@@ -24,4 +24,4 @@ http.createServer(function(req, res){
   })
 }).listen(PORT);
 
-console.log('server listening on 8080');
+console.log('server listening on '+ PORT);
