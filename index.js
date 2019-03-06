@@ -15,7 +15,7 @@ http.createServer(function(req, res){
   fs.readFile(fileName, function (err, data){
     if(err){
       res.writeHead(404,{'Content-Type': 'text/html'});
-      return res.end('404 not found')
+      return res.end('404 not found' + fileName)
     }
     res.writeHead(200,{'Content-Type': 'text/html'});
     res.write(data);
