@@ -1,0 +1,19 @@
+{
+  "name": "tutorial-files",
+  "version": "11.10.1",
+  "description": "Simple Web App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlueDragonGB/intro-to-node.git"
+  },
+  "author": "STe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BlueDragonGB/intro-to-node/issues"
+  },
+  "homepage": "https://github.com/BlueDragonGB/intro-to-node#readme"
+}
